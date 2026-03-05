@@ -1,22 +1,11 @@
-import { ArrowUpRight, Play, Star, Phone, Check, Layers, Settings, Sparkles, HeartHandshake } from "lucide-react";
-import HeroImg from "../assets/asset 3.png"
-import Google from "../assets/asset 2.svg";
-import A1 from "../assets/asset 4.jpeg";
-import A2 from "../assets/asset 6.jpeg";
-import A3 from "../assets/asset 5.svg";
+import { ArrowUpRight, Phone  } from "lucide-react";
+
 import SA1 from "../assets/asset 9.jpeg"
 import SA2 from "../assets/asset 10.jpeg"
 import SA3 from "../assets/asset 11.jpeg"
 import SA4 from "../assets/asset 12.jpeg"
 import SA5 from "../assets/asset 13.jpeg"
 import SA6 from "../assets/asset 14.jpeg"
-import WA1 from "../assets/asset 15.png"
-import WA2 from "../assets/asset 16.jpeg"
-import video from "../assets/glowix-video.mp4"
-import CA1 from "../assets/asset 17.jpeg"
-import CA2 from "../assets/asset 18.jpeg"
-import CA3 from "../assets/asset 19.jpeg"
-import CA4 from "../assets/asset 20.jpeg"
 import EA1 from "../assets/asset 21.jpeg"
 import EA2 from "../assets/asset 22.jpeg"
 import HA1 from "../assets/asset 24.svg"
@@ -27,21 +16,7 @@ import TA1 from "../assets/asset 28.jpeg"
 import TA2 from "../assets/asset 29.jpeg"
 import TA3 from "../assets/asset 30.jpeg"
 import TA4 from "../assets/asset 31.jpeg"
-import OA1 from "../assets/asset 32.jpeg"
-import OA2 from "../assets/asset 33.jpeg"
-import OA3 from "../assets/asset 34.jpeg"
-import OA4 from "../assets/asset 35.jpeg"
-import OA5 from "../assets/asset 36.svg"
-import OA6 from "../assets/asset 37.svg"
-import OA7 from "../assets/asset 38.svg"
-import OA8 from "../assets/asset 39.svg"
-import DoctorImg from "../assets/asset 40.png"
-import Blog1 from "../assets/asset 41.jpeg"
-import Blog2 from "../assets/asset 42.jpeg"
-import Blog3 from "../assets/asset 43.jpeg"
-import Blog4 from "../assets/asset 41.jpeg"
-import Blog5 from "../assets/asset 42.jpeg"
-import Blog6 from "../assets/asset 43.jpeg"
+
 
 function Services() {
     const services = [
