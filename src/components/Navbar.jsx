@@ -1,7 +1,7 @@
 import React, { useState } from "react"; // 1. Added useState
 import { Link, useLocation } from "react-router-dom"; // 2. Added useLocation for active styling
 import { ChevronDown, Phone } from "lucide-react";
-import Loader from "../assets/Loader.svg";
+import Loader from "../assets/loader.svg";
 
 const Navbar = () => {
   const [isPagesOpen, setIsPagesOpen] = useState(false);
