@@ -857,7 +857,7 @@ function Home() {
           <div>
             {/* Small Heading */}
             <p className="text-sm tracking-widest text-orange-500 uppercase mb-3">
-               Appointment
+              Appointment
             </p>
 
             {/* Main Heading */}
@@ -925,7 +925,7 @@ function Home() {
 
           {/* Small Heading */}
           <p className="text-sm tracking-widest text-orange-500 uppercase mb-3">
-             Latest Blog
+            Latest Blog
           </p>
 
           {/* Main Heading */}

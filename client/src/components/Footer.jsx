@@ -11,9 +11,9 @@ const Footer = () => {
             Our latest insights on plastic surgery & skincare
           </h2>
           <div className="relative w-full md:w-96">
-            <input 
-              type="email" 
-              placeholder="Enter your email" 
+            <input
+              type="email"
+              placeholder="Enter your email"
               className="w-full bg-white/10 border border-white/20 rounded-full py-4 px-6 text-white placeholder:text-white/50 focus:outline-none focus:ring-2 focus:ring-[#C8643C]"
             />
             <button className="absolute right-2 top-2 bg-[#C8643C] p-2.5 rounded-full hover:bg-white hover:text-[#C8643C] transition-all">

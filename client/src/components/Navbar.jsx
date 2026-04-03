@@ -37,9 +37,9 @@ const Navbar = () => {
             <li><Link to="/about" className={`${isActive("/about")} hover:text-[#C8643C] transition-colors`}>About Us</Link></li>
             <li><Link to="/services" className={`${isActive("/services")} hover:text-[#C8643C] transition-colors`}>Services</Link></li>
             <li><Link to="/blog" className={`${isActive("/blog")} hover:text-[#C8643C] transition-colors`}>Blog</Link></li>
-            
+
             {/* DROPDOWN LOGIC START */}
-            <li 
+            <li
               className="relative group cursor-pointer"
               onMouseEnter={() => setIsPagesOpen(true)}
               onMouseLeave={() => setIsPagesOpen(false)}
@@ -91,7 +91,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <div className="lg:hidden">
-          <button 
+          <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="text-[#4A2B20] p-2 hover:bg-gray-100 rounded-lg transition-colors"
           >
@@ -107,8 +107,8 @@ const Navbar = () => {
             {/* Mobile Navigation Links */}
             <ul className="space-y-4 font-semibold mb-6">
               <li>
-                <Link 
-                  to="/" 
+                <Link
+                  to="/"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`${isActive("/")} block py-2 hover:text-[#C8643C] transition-colors`}
                 >
@@ -116,8 +116,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/about" 
+                <Link
+                  to="/about"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`${isActive("/about")} block py-2 hover:text-[#C8643C] transition-colors`}
                 >
@@ -125,8 +125,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/services" 
+                <Link
+                  to="/services"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`${isActive("/services")} block py-2 hover:text-[#C8643C] transition-colors`}
                 >
@@ -134,15 +134,15 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/blog" 
+                <Link
+                  to="/blog"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`${isActive("/blog")} block py-2 hover:text-[#C8643C] transition-colors`}
                 >
                   Blog
                 </Link>
               </li>
-              
+
               {/* Mobile Dropdown */}
               <li>
                 <button
@@ -168,10 +168,10 @@ const Navbar = () => {
                   </ul>
                 )}
               </li>
-              
+
               <li>
-                <Link 
-                  to="/contact" 
+                <Link
+                  to="/contact"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`${isActive("/contact")} block py-2 hover:text-[#C8643C] transition-colors`}
                 >

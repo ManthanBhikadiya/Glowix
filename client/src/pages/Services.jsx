@@ -1,4 +1,4 @@
-import { ArrowUpRight, Phone  } from "lucide-react";
+import { ArrowUpRight, Phone } from "lucide-react";
 
 import SA1 from "../assets/asset 9.jpeg"
 import SA2 from "../assets/asset 10.jpeg"

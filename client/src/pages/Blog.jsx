@@ -44,7 +44,7 @@ function Blog() {
 
   return (
     <div>
-<section className="w-full bg-[#f6f3ef] py-12">
+      <section className="w-full bg-[#f6f3ef] py-12">
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="relative bg-[#5a1f0f] rounded-[40px] py-28 text-center overflow-hidden">

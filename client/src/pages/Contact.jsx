@@ -33,7 +33,7 @@ const Contact = () => {
 
         </div>
       </section>
-      
+
       <section className="w-full bg-[#f6f3ef] py-20">
         <div className="max-w-7xl mx-auto px-6">
 

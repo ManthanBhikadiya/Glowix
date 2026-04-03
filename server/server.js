@@ -21,12 +21,12 @@ app.use("/api/contact", contactRoutes)
 app.use("/api/appointment", appointmentRoutes)
 app.use("/api/blog", blogRoutes)
 
-app.get("/", (req,res)=>{
- res.send("Glowix Backend Running")
+app.get("/", (req, res) => {
+    res.send("Glowix Backend Running")
 })
 
 const PORT = process.env.PORT
 
-app.listen(PORT, ()=>{
- console.log(`Server running on ${process.env.PORT}`)
+app.listen(PORT, () => {
+    console.log(`Server running on ${process.env.PORT}`)
 })

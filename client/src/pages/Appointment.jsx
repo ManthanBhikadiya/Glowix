@@ -60,7 +60,7 @@ function Appointment() {
 
             {/* Title */}
             <h1 className="text-6xl font-serif text-white tracking-wide mb-6">
-             BOOK APPOINTMENT
+              BOOK APPOINTMENT
             </h1>
 
             {/* Breadcrumb */}
