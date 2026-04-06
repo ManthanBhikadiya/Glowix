@@ -39,6 +39,7 @@ import DoctorImg from "../assets/asset 40.png"
 import Blog1 from "../assets/asset 41.jpeg"
 import Blog2 from "../assets/asset 42.jpeg"
 import Blog3 from "../assets/asset 43.jpeg"
+import BlogCard from "../components/BlogCard";
 
 function Home() {
   const services = [
@@ -920,53 +921,9 @@ function Home() {
         </div>
       </section>
 
-      <section className="bg-[#f4ede8] py-20 px-4">
-        <div className="max-w-7xl mx-auto text-center">
+      
 
-          {/* Small Heading */}
-          <p className="text-sm tracking-widest text-orange-500 uppercase mb-3">
-            Latest Blog
-          </p>
-
-          {/* Main Heading */}
-          <h2 className="text-4xl md:text-5xl font-serif text-[#3b2b25] leading-tight mb-14">
-            Our latest insights on plastic <br />
-            surgery & skincare
-          </h2>
-
-          {/* Blog Cards */}
-          <div className="grid md:grid-cols-3 gap-10">
-
-            {blogs.map((blog) => (
-              <div key={blog.id} className="group text-left">
-
-                {/* Image */}
-                <div className="relative overflow-hidden rounded-3xl">
-                  <img
-                    src={blog.image}
-                    alt={blog.title}
-                    className="w-full h-[320px] object-cover transition duration-500 group-hover:scale-105"
-                  />
-                </div>
-
-                {/* Title + Arrow */}
-                <div className="flex items-center justify-between mt-6">
-                  <h3 className="text-lg font-medium text-[#3b2b25] leading-snug w-3/4">
-                    {blog.title}
-                  </h3>
-
-                  <div className="w-10 h-10 flex items-center justify-center rounded-full bg-[#c65d32] text-white transition duration-300 group-hover:bg-[#a84b27]">
-                    →
-                  </div>
-                </div>
-
-              </div>
-            ))}
-
-          </div>
-
-        </div>
-      </section>
+      <BlogCard/>
     </div>
   );
 }
