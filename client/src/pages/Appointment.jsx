@@ -188,7 +188,7 @@ function Appointment() {
             <div className="relative flex items-center justify-center">
 
               {/* Orange Shape */}
-              <div className="absolute w-[360px] h-[280px] right-0 bg-orange-500 rounded-[40px]  top-31 z-0 flex items-center justify-center">
+              <div className="absolute w-[360px] h-[280px] right-0 bg-#c65f2f rounded-[40px]  top-31 z-0 flex items-center justify-center">
                 <span className="absolute -right-20 -rotate-90 text-white tracking-[3px] text-sm font-medium">
                   25 YEARS EXPERIENCE
                 </span>
@@ -211,7 +211,7 @@ function Appointment() {
 
             {/* RIGHT SIDE CONTENT */}
             <div>
-              <p className="text-sm tracking-[3px] text-orange-500 font-semibold uppercase mb-4">
+              <p className="text-sm tracking-[3px] text-#c65f2f font-semibold uppercase mb-4">
                 Why Choose Us
               </p>
 
@@ -233,7 +233,7 @@ function Appointment() {
 
               {/* Contact Box */}
               <div className="flex items-center gap-4 border-t pt-6">
-                <div className="w-12 h-12 bg-orange-500 text-white flex items-center justify-center rounded-full">
+                <div className="w-12 h-12 bg-#c65f2f text-white flex items-center justify-center rounded-full">
                   <Phone size={18} />
                 </div>
                 <div>
@@ -276,7 +276,7 @@ function Appointment() {
           {/* RIGHT SIDE CONTENT */}
           <div>
 
-            <p className="text-sm tracking-[4px] text-orange-500 font-semibold uppercase mb-4">
+            <p className="text-sm tracking-[4px] text-#c65f2f font-semibold uppercase mb-4">
               Frequently Asked Questions
             </p>
 

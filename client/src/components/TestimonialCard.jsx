@@ -45,7 +45,7 @@ function TestimonialCard() {
 
                     {/* RIGHT CONTENT */}
                     <div className="text-white">
-                        <p className="text-sm tracking-[3px] text-orange-300 uppercase mb-4">
+                        <p className="text-sm tracking-[3px] text-#c65f2f uppercase mb-4">
                             Testimonials
                         </p>
 

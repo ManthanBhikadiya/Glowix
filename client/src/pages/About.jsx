@@ -244,7 +244,7 @@ function About() {
           <div>
 
             {/* Small Heading */}
-            <p className="text-sm tracking-widest text-orange-500 uppercase mb-4">
+            <p className="text-sm tracking-widest text-#c65f2f uppercase mb-4">
               ✽ Our Approach
             </p>
 
@@ -453,7 +453,7 @@ function About() {
           <div>
 
             {/* Small Heading */}
-            <p className="text-sm tracking-widest text-orange-300 uppercase mb-4">
+            <p className="text-sm tracking-widest text-#c65f2f uppercase mb-4">
               ✽ Our Journey
             </p>
 
@@ -543,7 +543,7 @@ function About() {
         <div className="max-w-7xl mx-auto px-6 text-center">
 
           {/* Section Tag */}
-          <p className="text-sm tracking-[4px] text-orange-500 font-semibold uppercase mb-4">
+          <p className="text-sm tracking-[4px] text-#c65f2f font-semibold uppercase mb-4">
             Our Team
           </p>
 
@@ -576,7 +576,7 @@ function About() {
                   {[Instagram, Facebook, Dribbble].map((Icon, index) => (
                     <div
                       key={index}
-                      className="w-10 h-10 flex items-center justify-center rounded-full bg-orange-500 text-white hover:bg-[#3b1d14] transition cursor-pointer"
+                      className="w-10 h-10 flex items-center justify-center rounded-full bg-#c65f2f text-white hover:bg-[#3b1d14] transition cursor-pointer"
                     >
                       <Icon size={18} />
                     </div>
@@ -606,7 +606,7 @@ function About() {
 
             {/* RIGHT CONTENT */}
             <div className="text-white">
-              <p className="text-sm tracking-[3px] text-orange-300 uppercase mb-4">
+              <p className="text-sm tracking-[3px] text-#c65f2f uppercase mb-4">
                 Testimonials
               </p>
 
@@ -649,7 +649,7 @@ function About() {
         <div className="max-w-7xl mx-auto text-center">
 
           {/* Top Small Text */}
-          <p className="text-sm tracking-widest text-orange-500 uppercase mb-3">
+          <p className="text-sm tracking-widest text-#c65f2f uppercase mb-3">
             ✽ See The Difference
           </p>
 
@@ -775,7 +775,7 @@ function About() {
           {/* RIGHT CONTENT */}
           <div>
             {/* Small Heading */}
-            <p className="text-sm tracking-widest text-orange-500 uppercase mb-3">
+            <p className="text-sm tracking-widest text-#c65f2f uppercase mb-3">
               Appointment
             </p>
 
@@ -866,7 +866,7 @@ function About() {
           {/* RIGHT SIDE CONTENT */}
           <div>
 
-            <p className="text-sm tracking-[4px] text-orange-500 font-semibold uppercase mb-4">
+            <p className="text-sm tracking-[4px] text-#c65f2f font-semibold uppercase mb-4">
               Frequently Asked Questions
             </p>
 

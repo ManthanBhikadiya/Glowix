@@ -201,7 +201,7 @@ function Services() {
 
                         {/* RIGHT CONTENT */}
                         <div className="text-white">
-                            <p className="text-sm tracking-[3px] text-orange-300 uppercase mb-4">
+                            <p className="text-sm tracking-[3px] text-#c65f2f uppercase mb-4">
                                 Testimonials
                             </p>
 
@@ -245,7 +245,7 @@ function Services() {
 
                     {/* LEFT SIDE */}
                     <div>
-                        <p className="text-sm tracking-[3px] text-orange-500 font-semibold uppercase mb-4">
+                        <p className="text-sm tracking-[3px] text-#c65f2f font-semibold uppercase mb-4">
                             How It Work
                         </p>
 
@@ -257,7 +257,7 @@ function Services() {
                             Discover a seamless process designed to enhance your beauty personalized consultations to expert procedures and dedicated aftercare, we guide you every step of the way toward achieving stunning.
                         </p>
 
-                        <button className="flex items-center gap-3 bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600 transition">
+                        <button className="flex items-center gap-3 bg-[#c65f2f] text-white px-6 py-3 rounded-full hover:bg-[#a84b27] transition">
                             Contact Us
                             <span className="bg-[#3b1d14] p-2 rounded-full">
                                 <ArrowUpRight size={16} />
@@ -312,7 +312,7 @@ function Services() {
                         <div className="relative flex items-center justify-center">
 
                             {/* Orange Shape */}
-                            <div className="absolute w-[360px] h-[280px] right-0 bg-orange-500 rounded-[40px]  top-31 z-0 flex items-center justify-center">
+                            <div className="absolute w-[360px] h-[280px] right-0 bg-#c65f2f rounded-[40px]  top-31 z-0 flex items-center justify-center">
                                 <span className="absolute -right-20 -rotate-90 text-white tracking-[3px] text-sm font-medium">
                                     25 YEARS EXPERIENCE
                                 </span>
@@ -335,7 +335,7 @@ function Services() {
 
                         {/* RIGHT SIDE CONTENT */}
                         <div>
-                            <p className="text-sm tracking-[3px] text-orange-500 font-semibold uppercase mb-4">
+                            <p className="text-sm tracking-[3px] text-#c65f2f font-semibold uppercase mb-4">
                                 Why Choose Us
                             </p>
 
@@ -357,7 +357,7 @@ function Services() {
 
                             {/* Contact Box */}
                             <div className="flex items-center gap-4 border-t pt-6">
-                                <div className="w-12 h-12 bg-orange-500 text-white flex items-center justify-center rounded-full">
+                                <div className="w-12 h-12 bg-#c65f2f text-white flex items-center justify-center rounded-full">
                                     <Phone size={18} />
                                 </div>
                                 <div>

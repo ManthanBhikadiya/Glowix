@@ -1,6 +1,9 @@
+import { useState } from "react"
 import BlogCard from "../components/BlogCard"
+import BlogForm from "../components/BlogForm"
 
 function Blog() {
+  const [showForm, setShowForm] = useState(false)
 
   return (
     <div>
@@ -35,7 +38,23 @@ function Blog() {
         </div>
       </section>
 
+      <div className="max-w-7xl mx-auto px-6 py-8">
+        <button
+          onClick={() => setShowForm(true)}
+          className="bg-[#c65f2f] hover:bg-[#a84b27] text-white px-6 py-3 rounded-full transition"
+        >
+          + Create New Blog
+        </button>
+      </div>
+
       <BlogCard />
+
+      {showForm && (
+        <BlogForm
+          onClose={() => setShowForm(false)}
+          onSuccess={() => window.location.reload()}
+        />
+      )}
     </div>
   );
 }

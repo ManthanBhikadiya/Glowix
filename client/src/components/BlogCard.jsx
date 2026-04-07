@@ -57,7 +57,7 @@ function BlogCard() {
             <div className="max-w-7xl mx-auto text-center">
 
                 {/* Small Heading */}
-                <p className="text-sm tracking-widest text-orange-500 uppercase mb-3">
+                <p className="text-sm tracking-widest text-#c65f2f uppercase mb-3">
                     Latest Blog
                 </p>
 

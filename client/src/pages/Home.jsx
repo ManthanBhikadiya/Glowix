@@ -167,7 +167,7 @@ function Home() {
 
           <div className="max-w-xl">
 
-            <p className="uppercase tracking-widest text-sm mb-6 flex items-center gap-2 text-orange-300">
+            <p className="uppercase tracking-widest text-sm mb-6 flex items-center gap-2 text-#c65f2f">
               ✿ Welcome To Glowix
             </p>
 
@@ -182,7 +182,7 @@ function Home() {
             </p>
 
             <div className="flex items-center gap-6 mb-8">
-              <button className="bg-orange-500 px-6 py-3 rounded-full flex items-center gap-2 hover:bg-orange-600 transition">
+              <button className="bg-#c65f2f px-6 py-3 rounded-full flex items-center gap-2 hover:bg-#c65f2f transition">
                 Get Started
                 <ArrowUpRight size={18} />
               </button>
@@ -195,7 +195,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="flex items-center gap-3 text-orange-400">
+            <div className="flex items-center gap-3 text-#c65f2f">
               <img src={Google} alt="" />
               <span className="text-white font-semibold">4.5</span>
               <div className="flex">
@@ -481,7 +481,7 @@ function Home() {
 
           {/* Left Content */}
           <div>
-            <p className="text-sm tracking-[3px] text-orange-500 font-semibold uppercase mb-4">
+            <p className="text-sm tracking-[3px] text-#c65f2f font-semibold uppercase mb-4">
               Case Study’s
             </p>
 
@@ -495,7 +495,7 @@ function Home() {
               plastic surgery and beauty treatments.
             </p>
 
-            <button className="flex items-center gap-3 bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600 transition">
+            <button className="flex items-center gap-3 bg-#c65f2f text-white px-6 py-3 rounded-full hover:bg-#c65f2f transition">
               All Case Study’s
               <span className="bg-[#3b1d14] p-2 rounded-full">
                 <ArrowUpRight size={16} />
@@ -528,7 +528,7 @@ function Home() {
 
                 {/* Arrow Button */}
                 <div className="absolute bottom-5 right-5">
-                  <div className="bg-orange-500 p-3 rounded-full text-white group-hover:rotate-45 transition duration-300">
+                  <div className="bg-#c65f2f p-3 rounded-full text-white group-hover:rotate-45 transition duration-300">
                     <ArrowUpRight size={18} />
                   </div>
                 </div>
@@ -548,7 +548,7 @@ function Home() {
             <div className="relative flex items-center justify-center">
 
               {/* Orange Shape */}
-              <div className="absolute w-[360px] h-[280px] right-0 bg-orange-500 rounded-[40px]  top-31 z-0 flex items-center justify-center">
+              <div className="absolute w-[360px] h-[280px] right-0 bg-#c65f2f rounded-[40px]  top-31 z-0 flex items-center justify-center">
                 <span className="absolute -right-20 -rotate-90 text-white tracking-[3px] text-sm font-medium">
                   25 YEARS EXPERIENCE
                 </span>
@@ -571,7 +571,7 @@ function Home() {
 
             {/* RIGHT SIDE CONTENT */}
             <div>
-              <p className="text-sm tracking-[3px] text-orange-500 font-semibold uppercase mb-4">
+              <p className="text-sm tracking-[3px] text-#c65f2f font-semibold uppercase mb-4">
                 Why Choose Us
               </p>
 
@@ -593,7 +593,7 @@ function Home() {
 
               {/* Contact Box */}
               <div className="flex items-center gap-4 border-t pt-6">
-                <div className="w-12 h-12 bg-orange-500 text-white flex items-center justify-center rounded-full">
+                <div className="w-12 h-12 bg-#c65f2f text-white flex items-center justify-center rounded-full">
                   <Phone size={18} />
                 </div>
                 <div>
@@ -614,7 +614,7 @@ function Home() {
 
           {/* LEFT SIDE */}
           <div>
-            <p className="text-sm tracking-[3px] text-orange-500 font-semibold uppercase mb-4">
+            <p className="text-sm tracking-[3px] text-#c65f2f font-semibold uppercase mb-4">
               How It Work
             </p>
 
@@ -626,7 +626,7 @@ function Home() {
               Discover a seamless process designed to enhance your beauty personalized consultations to expert procedures and dedicated aftercare, we guide you every step of the way toward achieving stunning.
             </p>
 
-            <button className="flex items-center gap-3 bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600 transition">
+            <button className="flex items-center gap-3 bg-#c65f2f text-white px-6 py-3 rounded-full hover:bg-#c65f2f transition">
               Contact Us
               <span className="bg-[#3b1d14] p-2 rounded-full">
                 <ArrowUpRight size={16} />
@@ -688,7 +688,7 @@ function Home() {
 
             {/* RIGHT CONTENT */}
             <div className="text-white">
-              <p className="text-sm tracking-[3px] text-orange-300 uppercase mb-4">
+              <p className="text-sm tracking-[3px] text-#c65f2f uppercase mb-4">
                 Testimonials
               </p>
 
@@ -731,7 +731,7 @@ function Home() {
         <div className="max-w-7xl mx-auto text-center">
 
           {/* Top Small Text */}
-          <p className="text-sm tracking-widest text-orange-500 uppercase mb-3">
+          <p className="text-sm tracking-widest text-#c65f2f uppercase mb-3">
             ✽ See The Difference
           </p>
 
@@ -857,7 +857,7 @@ function Home() {
           {/* RIGHT CONTENT */}
           <div>
             {/* Small Heading */}
-            <p className="text-sm tracking-widest text-orange-500 uppercase mb-3">
+            <p className="text-sm tracking-widest text-#c65f2f uppercase mb-3">
               Appointment
             </p>
 
