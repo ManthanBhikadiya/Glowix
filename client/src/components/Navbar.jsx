@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ChevronDown, Phone, X } from "lucide-react";
+import { ChevronDown, Phone, X, User, LogOut } from "lucide-react";
 import Loader from "../assets/loader.svg";
+import { useAuth } from "../context/AuthContext";
 
 const Navbar = () => {
   const [isPagesOpen, setIsPagesOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const location = useLocation();
+  const { user, logout } = useAuth();
 
   const isActive = (path) => location.pathname === path ? "text-[#C8643C]" : "text-gray-600";
 
@@ -14,6 +17,8 @@ const Navbar = () => {
     { name: "FAQ", path: "/faq" },
     { name: "Case Study", path: "/case-study" },
     { name: "Not Found", path: "*" },
+    { name: "Login", path: "/login" },
+    { name: "Register", path: "/register" }
   ];
 
   return (
@@ -80,6 +85,41 @@ const Navbar = () => {
               (+22) 123 456 789
             </span>
           </div>
+
+          {user ? (
+            <div className="relative">
+              <button
+                onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
+                className="flex items-center gap-2 text-gray-600 hover:text-[#C8643C] cursor-pointer"
+              >
+                <User size={20} />
+                <span className="font-semibold">{user.name}</span>
+              </button>
+              {isUserMenuOpen && (
+                <div className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg py-2 border">
+                  <button
+                    onClick={() => { logout(); setIsUserMenuOpen(false); }}
+                    className="flex items-center gap-2 w-full px-4 py-2 text-left text-gray-600 hover:bg-gray-100 cursor-pointer"
+                  >
+                    <LogOut size={16} />
+                    Logout
+                  </button>
+                </div>
+              )}
+            </div>
+          ) : (
+            <div className="flex items-center gap-4">
+              <Link to="/login" className="text-gray-600 hover:text-[#C8643C] font-semibold">
+                Login
+              </Link>
+              <Link
+                to="/register"
+                className="rounded-full bg-[#C8643C] px-6 xl:px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#C8643C]/20 transition-all hover:bg-[#b05632] hover:-translate-y-0.5 active:scale-95"
+              >
+                Register
+              </Link>
+            </div>
+          )}
 
           <Link
             to="/appointment"

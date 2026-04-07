@@ -11,6 +11,8 @@ import Appointment from "./pages/Appointment";
 import Faq from "./pages/Faq";
 import CaseStudy from "./pages/CaseStudy";
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/appointment" element={<Appointment />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/case-study" element={<CaseStudy />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
